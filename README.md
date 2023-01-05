@@ -15,7 +15,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://front-end-by-rimantas.github.io/42-grupe-coming-soon/
 
-Design: [Coming soon](https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png)
+Design: [Web-NoJs](https://mindpaul.github.io/10-website-NoJS/)
 
 ## 🎯 Project features/goals
 
@@ -48,7 +48,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/front-end-by-rimantas/41-grupe-ufo.git
+    git clone https://github.com/MindPaul/10-website-NoJS.git
     ```
 2. Install NPM packages
     ```sh
