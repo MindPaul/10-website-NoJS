@@ -2,6 +2,7 @@
 @import '../base/base.css';
 @import '../base/layout.css';
 /* 3rd-party */
+@import'../3rd-party/font-awesome.min.css';
 /* components */
 
 /* CUSTUM STYLE BELOW THIS COMMENT LINE */
@@ -40,4 +41,27 @@
 /* footer */
 footer.container {
   padding-top: 0;
+}
+.row.social {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0 10px;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+.social > a {
+  height: 2.5em;
+  width: 2.5em;
+  font-size: 20px;
+  line-height: 2.5em;
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.1s;
+}
+.social > a:hover {
+  background-color: #fff;
+  color: #00aafb;
 }
