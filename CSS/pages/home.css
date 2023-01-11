@@ -4,6 +4,10 @@
 /* 3rd-party */
 @import'../3rd-party/font-awesome.min.css';
 /* components */
+@import '../commponents/clock.css';
+@import '../commponents/mouse.css';
+@import '../commponents/progress-bar.css';
+
 
 /* CUSTUM STYLE BELOW THIS COMMENT LINE */
 
