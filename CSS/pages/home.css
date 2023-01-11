@@ -46,7 +46,10 @@
 footer.container {
   padding-top: 0;
 }
-.row.social {
+footer > .row{
+  position: relative;
+}
+.social {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -68,4 +71,9 @@ footer.container {
 .social > a:hover {
   background-color: #fff;
   color: #00aafb;
+}
+.back-to-up {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
