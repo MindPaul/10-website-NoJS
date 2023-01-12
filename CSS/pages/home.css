@@ -7,6 +7,7 @@
 @import '../commponents/clock.css';
 @import '../commponents/mouse.css';
 @import '../commponents/progress-bar.css';
+@import '../commponents/buttons.css';
 
 
 /* CUSTUM STYLE BELOW THIS COMMENT LINE */
@@ -46,7 +47,10 @@
 footer.container {
   padding-top: 0;
 }
-.row.social {
+footer > .row{
+  position: relative;
+}
+.social {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -68,4 +72,9 @@ footer.container {
 .social > a:hover {
   background-color: #fff;
   color: #00aafb;
+}
+.back-to-up {
+  position: absolute;
+  top: -1.1em;
+  right: -0.6em;
 }
