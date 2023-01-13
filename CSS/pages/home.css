@@ -79,3 +79,47 @@ footer > .row{
   top: -1.1em;
   right: -0.6em;
 }
+
+.footers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-h1 {
+  padding: 20px;
+  display: flex;
+}
+
+.logo-descrption {
+  font-size: 40px;
+  line-height: 1em;
+  font-weight: 600;
+  color: #fff;
+}
+
+.footer-logo {
+  width: 100%;
+  height: 35px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.copyright {
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #00c9ff;
+}
+.copyright a {
+  text-decoration: none;
+  color: #EA1E63;
+}
+.copyright a:hover {
+  text-decoration: underline;
+}
+
+.last-word {
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #39d3ff;
+  text-align: center;
+}
